@@ -1,0 +1,78 @@
+.nav-container a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    font-family: "poppins Bold";
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #2ecc71;
+  }
+  
+  
+  .menu-toggle {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+    margin-left: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 85px;
+      left: 0;
+      right: 0;
+      background-color: #34495e;
+      padding: 1rem;
+      z-index: 1;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-menu.open {
+      display: flex;
+    }
+  }
+  
+  
+  
+  
