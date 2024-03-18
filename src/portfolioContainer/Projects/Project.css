@@ -1,0 +1,76 @@
+.about-me-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .about-me-title {
+    font-family: "poppins SemiBold";
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .why{
+    font-size: 14px;
+    color: dimgray;
+  }
+  
+  .title-underline {
+    width: 100px;
+    height: 2px;
+    background: #34495e;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .title-underline::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    padding: 3px;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 20%;
+    background-color: #1abc9c;
+  }
+  
+  .about-me-description {
+    text-align: justify;
+    font-size: 14px;
+    color: #333;
+    line-height: 2;
+  }
+  
+  .list-title {
+    font-size: 15px;
+    text-align: left;
+  }
+  .ma-liste {
+    list-style-type: none; 
+    padding: 0;
+    line-height: 0.5;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .ma-liste li {
+    position: relative;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .ma-liste li:before {
+    content: '\2022';
+    color: #1abc9c; 
+    font-size: 3.5em;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-options{
+      padding-bottom: 2rem;
+    }
+    
+  }

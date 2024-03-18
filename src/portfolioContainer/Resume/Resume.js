@@ -104,20 +104,21 @@ function Resume() {
     </p>
     , 
     <div className="col-lg-9 col-sm-5">
-			<img className='img-fluid ' src={require ('../../assets/home/skills.png')} alt="please wait"/>
+			<img className='img-fluid ' src={require ('../../assets/home/skills.png')} 
+      alt="No Internet connection"/>
 		</div>,
     <p>
     <ul className="puce">
     <li className="esgi1">To Do List ------------- 2022</li>
     </ul>
-    <p className="esgi2">  technologies used: HTML; CSS; JS.</p>
+    <p className="esgi2">  Technologies used: HTML; CSS; JS.</p>
     <p className="col-lg-10 ">A To do list to help people stay organised in their daily tasks.</p>
     
     <p className="pt-3">
     <ul className="puce">
-    <li className="esgi1">Product rating system ----------- 2023</li>
+    <li className="esgi1">Product rating system --------- 2023</li>
     </ul>
-    <p className="esgi2">  technologies used: Next JS, Talwind CSS; React JS.</p>
+    <p className="esgi2">  Technologies used: Next JS, Talwind CSS; React JS.</p>
     <p className="col-lg-10 ">A product rating system  for rating and commenting on any product with an 
       IA that can write what the user says in audio.</p>
    
