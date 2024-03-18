@@ -63,7 +63,8 @@
     .sidebar {
       width: 100%;
       padding: 0;
-      background-color: #333;
+      height: 350px;
+      background-color: #34495e;
       color: white;
     }
   
