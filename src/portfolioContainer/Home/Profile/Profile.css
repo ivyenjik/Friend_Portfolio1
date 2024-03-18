@@ -41,8 +41,8 @@
 }
 .profile-options .highlighted-btn:hover{
 	margin: 0 0 0 28px;
-	background-color: cornsilk;
-	color: #111;
+	background-color: #1ed760;
+	color: #34495e;
 }
 .profile-picture{
 	display: flex;

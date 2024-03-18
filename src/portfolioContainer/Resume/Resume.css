@@ -1,0 +1,77 @@
+.app {
+    display: flex;
+    font-family: "poppins Regular"
+    }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #34495e;
+    padding: 20px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-item:hover .sidebar-title {
+    font-weight: bold;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-title {
+    color: #fff;
+    font-weight: 300;
+    margin: 12px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-family: "poppins SemiBold";
+    color: #2ecc71;
+    margin-bottom: 20px;
+  }
+ 
+
+  .esgi1 {
+    font-weight: bold;
+    color: var(--dark-orange);
+  }
+  .esgi2 {
+    font-weight: 600;
+  }
+  .puce {
+    list-style-type: square;
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    .app {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      padding: 0;
+      background-color: #333;
+      color: white;
+    }
+  
+    .sidebar-item {
+      padding: 15px;
+    }
+  
+    .main-content {
+      width: 100%;
+    }
+  }
+  
